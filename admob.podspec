@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'AdMob'
   s.platform = :ios, '4.3'
-  s.version = '6.4.2'
+  s.version = '6.5.0'
   s.summary = 'Google AdMob Ads SDK.'
   s.description = 'The Google AdMob Ads SDK allows developers to easily incorporate mobile-friendly text and image banners as well as rich, full-screen web apps known as interstitials.'
   s.homepage = 'https://github.com/patoroco/admob'
