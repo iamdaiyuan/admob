@@ -16,6 +16,12 @@ typedef enum {
   kGADSearchBorderTypeSolid
 } GADSearchBorderType;
 
+typedef enum {
+  kGADSearchCallButtonLight,
+  kGADSearchCallButtonMedium,
+  kGADSearchCallButtonDark
+} GADSearchCallButtonColor;
+
 // Specifies parameters and controls for search ads.
 @interface GADSearchRequest : NSObject
 
@@ -32,6 +38,7 @@ typedef enum {
 @property (nonatomic) GADSearchBorderType borderType;
 @property (nonatomic) int borderThickness;
 @property (nonatomic, copy) NSString *customChannels;
+@property (nonatomic) GADSearchCallButtonColor callButtonColor;
 
 // The request object used to request ad. Pass the value returned by the method
 // to GADSearchBannerView to get the ad in the format specified.
